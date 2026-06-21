@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "types": ["mocha", "chai"],
+    "module": "commonjs",
+    "target": "es2020",
+    "lib": ["es2020"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    "outDir": ".mocha-build",
+    "rootDir": "."
+  },
+  "include": ["tests/**/*.ts", "sdk/**/*.ts", "app/**/*.ts", "target/types/**/*.ts"],
+  "exclude": ["node_modules", ".mocha-build"]
+}
